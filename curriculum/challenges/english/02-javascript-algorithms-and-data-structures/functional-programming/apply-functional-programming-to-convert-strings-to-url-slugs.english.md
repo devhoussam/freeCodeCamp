@@ -66,10 +66,14 @@ function urlSlug(title) {
 <section id='solution'>
 
 ```js
+// The global variable
+var globalTitle = "Winter Is Coming";
+
 // Only change code below this line
 function urlSlug(title) {
   return title.trim().split(/\s+/).join("-").toLowerCase();
 }
+// Only change code above this line
 ```
 
 </section>
