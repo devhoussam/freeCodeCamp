@@ -54,7 +54,8 @@ tests:
 <section id='solution'>
 
 ```js
-// solution required
+let myMap = new Map();
+myMap.set('freeCodeCamp', 'Awesome!');
 ```
 
 </section>
